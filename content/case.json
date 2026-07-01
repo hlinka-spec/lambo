@@ -6,10 +6,10 @@
     "owner": "Michal Hlinka",
     "status": "Legal review / amicable settlement attempt",
     "purchasePrice": 1000000,
-    "repairEstimate": 397800,
+    "repairEstimate": "500000",
     "distance": "approx. 39 km"
   },
-  "summary": "This confidential case file summarizes the purchase, inspection, failure, technical findings, repair quotation and legal steps related to the Lamborghini Urus Mansory Venatus P820 purchased in Dubai.",
+  "summary": "This confidential case file summarizes the purchase, inspection, failure, technical findings, engine change quotation and legal steps related to the Lamborghini Urus Mansory Venatus P820 purchased in Dubai.",
   "events": [
     {
       "id": "E-001",
@@ -120,7 +120,7 @@
     {
       "id": "E-007",
       "date": "Mansory Middle East",
-      "title": "Oil change and continued knocking",
+      "title": "Oil change and engine knocking started",
       "source": "Mansory",
       "status": "completed",
       "description": "Engine oil and oil filter replaced. Knocking remained after road test.",
@@ -138,7 +138,15 @@
       "status": "completed",
       "description": "Engine opened. Destroyed crankshaft bearings and connecting rod bearings reported. Metal debris found inside the engine/lubrication system.",
       "legal": "Technical confirmation of severe internal defect.",
-      "photos": [],
+      "photos": [
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.29%20(1).jpeg",
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.29%20(2).jpeg",
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.29%20(3).jpeg",
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.29%20(4).jpeg",
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.29%20(5).jpeg",
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.30%20(1).jpeg",
+        "assets/photos/WhatsApp%20Image%202026-07-01%20at%2018.48.30%20(3).jpeg"
+      ],
       "documents": [],
       "audio": [],
       "videos": []
@@ -151,7 +159,10 @@
       "status": "completed",
       "description": "Official report describes progressive internal engine deterioration over an extended period and hidden mechanical defect.",
       "legal": "Key technical evidence.",
-      "photos": [],
+      "photos": [
+        "assets/photos/IMG_7448.jpg",
+        "assets/photos/IMG_7449.jpg"
+      ],
       "documents": [],
       "audio": [],
       "videos": []
@@ -159,11 +170,11 @@
     {
       "id": "E-010",
       "date": "30 June 2026",
-      "title": "Official Mansory repair estimate",
+      "title": "Options from Mansory ",
       "source": "Mansory",
       "status": "completed",
-      "description": "Mansory Middle East issued official repair quotation for AED 397,800.",
-      "legal": "Official quantification of repair damages.",
+      "description": "All of the prices are approximate (without work and additional fees)\n1. Option - Replacement:\na) New engine directly from Lamborghini 537,000 AED \nb) New engine from an agent 100,000 - 300,000 AED\nc) Option which Mansory doesnt recommend - Used engine 70,000 - 150,000 (No VIN, no history, no km, no warranty in most cases) \n2. Option - Repairing current engine - 397,800 AED (very long time-frame, some parts are availible after 45 days. Also not recommended by Mansory)",
+      "legal": "Official quantifications of repair damages.",
       "photos": [],
       "documents": [],
       "audio": [],
@@ -193,7 +204,7 @@
     },
     {
       "item": "Mansory repair estimate",
-      "amount": 397800,
+      "amount": 500000,
       "currency": "AED",
       "evidence": "E-010",
       "notes": ""
