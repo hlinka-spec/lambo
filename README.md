@@ -31,3 +31,7 @@ To preserve changes permanently:
 
 ## Export to PDF
 Open the website and click **Export / Print PDF**.
+
+
+## Fix note
+This version fixes Admin mode so Edit buttons no longer return you to the dashboard.

@@ -2,6 +2,7 @@ let CASE = null;
 let editingEventIndex = null;
 let editingDamageIndex = null;
 let editingContactIndex = null;
+let adminMode = false;
 
 const $ = (id)=>document.getElementById(id);
 const money = (n)=> Number(n||0).toLocaleString('en-US');
@@ -30,7 +31,7 @@ function render(){
   const events = CASE.events || [];
   document.title = CASE.site.title;
   $('app').innerHTML = `
-  <div class="site on" id="site">
+  <div class="site ${adminMode ? 'off' : 'on'}" id="site">
     <header class="hero">
       <div class="hero-in">
         <div class="kicker">Confidential Legal Case File</div>
@@ -64,7 +65,7 @@ function render(){
     </main>
     <footer>Confidential Case Book · Stored locally in this browser unless you export JSON.</footer>
   </div>
-  <div class="admin" id="admin">${renderAdmin()}</div>`;
+  <div class="admin ${adminMode ? 'on' : ''}" id="admin">${renderAdmin()}</div>`;
 }
 
 function renderEvent(ev, i){
@@ -174,8 +175,8 @@ function editDamage(i){editingDamageIndex=i; render();}
 function deleteDamage(i){if(confirm('Delete cost?')){CASE.damages.splice(i,1); saveLocal(); render();}}
 function saveDamageForm(){const d={item:val('d_item'),amount:Number(val('d_amount')),currency:val('d_currency'),evidence:val('d_evidence'),notes:val('d_notes')}; if(editingDamageIndex===-1) CASE.damages.push(d); else CASE.damages[editingDamageIndex]=d; editingDamageIndex=null; saveLocal(); render();}
 
-function showAdmin(){document.querySelector('.site').classList.add('off'); document.querySelector('.admin').classList.add('on');}
-function showSite(){document.querySelector('.site').classList.remove('off'); document.querySelector('.admin').classList.remove('on');}
+function showAdmin(){adminMode = true; render();}
+function showSite(){adminMode = false; render();}
 function setPath(path,value){const parts=path.split('.');let obj=CASE;while(parts.length>1)obj=obj[parts.shift()];obj[parts[0]]=value;saveLocal();}
 function input(label,path,value,type='text'){return `<label>${label}<input type="${type}" value="${esc(value)}" onchange="setPath('${path}',this.value)"></label>`}
 function field(label,id,value,type='text'){return `<label>${label}<input id="${id}" type="${type}" value="${esc(value||'')}"></label>`}
