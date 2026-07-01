@@ -46,14 +46,21 @@
     },
     {
       "id": "E-003",
-      "date": "Purchase",
+      "date": "2.5.2026",
       "title": "Purchase agreement and payment",
       "source": "Seller / Buyer",
-      "status": "completed",
+      "status": "dokončené",
       "description": "Purchase agreement signed. Purchase price AED 1,000,000.",
       "legal": "Contractual basis of the claim.",
-      "photos": [],
-      "documents": [],
+      "photos": [
+        "assets/photos/IMG_5294.jpg",
+        "assets/photos/IMG_7426.PNG",
+        "assets/photos/IMG_7427.PNG",
+        "assets/photos/IMG_7428.PNG"
+      ],
+      "documents": [
+        "https://github.com/hlinka-spec/lambo/blob/main/assets/photos/Sales%20Agreement%20Lamboghini%20Urus%20Mansory%20Edition.pdf"
+      ],
       "audio": [],
       "videos": []
     },
@@ -62,11 +69,14 @@
       "date": "After purchase",
       "title": "RTA, tyres, wrapping and transport",
       "source": "Buyer",
-      "status": "completed",
+      "status": "dokončené",
       "description": "Additional costs including RTA, new tyres, wrapping and transportation.",
       "legal": "Consequential damages and costs invested into the vehicle.",
       "photos": [
-        "https://github.com/hlinka-spec/lambo/blob/main/assets/photos/PHOTO-2026-07-01-13-50-08.jpg"
+        "assets/photos/Tyre%2Crta%2Cinsurance.PNG",
+        "assets/photos/IMG_7433.PNG",
+        "assets/photos/IMG_7434.PNG",
+        "assets/photos/IMG_7435.PNG"
       ],
       "documents": [],
       "audio": [],
