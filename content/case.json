@@ -1,0 +1,218 @@
+{
+  "site": {
+    "title": "The Urus Case Book",
+    "subtitle": "Lamborghini Urus Mansory Venatus P820",
+    "vin": "ZPBEA1ZL3MLA15451",
+    "owner": "Michal Hlinka",
+    "status": "Legal review / amicable settlement attempt",
+    "purchasePrice": 1000000,
+    "repairEstimate": 397800,
+    "distance": "approx. 39 km"
+  },
+  "summary": "This confidential case file summarizes the purchase, inspection, failure, technical findings, repair quotation and legal steps related to the Lamborghini Urus Mansory Venatus P820 purchased in Dubai.",
+  "events": [
+    {
+      "id": "E-001",
+      "date": "Before purchase",
+      "title": "Online advertisement and first contact",
+      "source": "Seller / Internet",
+      "status": "completed",
+      "description": "Vehicle found online. Seller: Maestro Motors Dubai. Sales representative: Khaldoun.",
+      "legal": "Start of transaction and seller representations.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-002",
+      "date": "Pre-purchase",
+      "title": "Inspection and diagnostics",
+      "source": "Inspection company",
+      "status": "completed",
+      "description": "Independent pre-purchase inspection arranged. Vehicle visually inspected, electronically diagnosed and test driven. No engine knocking reported.",
+      "legal": "Routine inspection did not reveal hidden internal engine defect.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-003",
+      "date": "Purchase",
+      "title": "Purchase agreement and payment",
+      "source": "Seller / Buyer",
+      "status": "completed",
+      "description": "Purchase agreement signed. Purchase price AED 1,000,000.",
+      "legal": "Contractual basis of the claim.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-004",
+      "date": "After purchase",
+      "title": "RTA, tyres, wrapping and transport",
+      "source": "Buyer",
+      "status": "completed",
+      "description": "Additional costs including RTA, new tyres, wrapping and transportation.",
+      "legal": "Consequential damages and costs invested into the vehicle.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-005",
+      "date": "Collection day",
+      "title": "Approx. 39 km after purchase",
+      "source": "Buyer",
+      "status": "completed",
+      "description": "Vehicle collected and driven approximately 39 km. Knocking noise appeared.",
+      "legal": "Very short use after purchase supports the pre-existing defect argument.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-006",
+      "date": "Mansory Middle East",
+      "title": "Initial inspection and exhaust repair",
+      "source": "Mansory",
+      "status": "completed",
+      "description": "Mansory inspected the vehicle and addressed exhaust-related knocking. Further road testing followed.",
+      "legal": "Shows immediate professional inspection after symptoms appeared.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-007",
+      "date": "Mansory Middle East",
+      "title": "Oil change and continued knocking",
+      "source": "Mansory",
+      "status": "completed",
+      "description": "Engine oil and oil filter replaced. Knocking remained after road test.",
+      "legal": "Noise was not resolved by routine service.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-008",
+      "date": "Engine disassembly",
+      "title": "Internal engine damage found",
+      "source": "Mansory",
+      "status": "completed",
+      "description": "Engine opened. Destroyed crankshaft bearings and connecting rod bearings reported. Metal debris found inside the engine/lubrication system.",
+      "legal": "Technical confirmation of severe internal defect.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-009",
+      "date": "11 June 2026",
+      "title": "Mansory Technical Inspection Report",
+      "source": "Mansory",
+      "status": "completed",
+      "description": "Official report describes progressive internal engine deterioration over an extended period and hidden mechanical defect.",
+      "legal": "Key technical evidence.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-010",
+      "date": "30 June 2026",
+      "title": "Official Mansory repair estimate",
+      "source": "Mansory",
+      "status": "completed",
+      "description": "Mansory Middle East issued official repair quotation for AED 397,800.",
+      "legal": "Official quantification of repair damages.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    },
+    {
+      "id": "E-011",
+      "date": "Legal",
+      "title": "Dubai lawyer consultation",
+      "source": "Lawyer",
+      "status": "waiting",
+      "description": "Dubai lawyer consulted. Recommended lawyer demand letter and attempt at amicable settlement.",
+      "legal": "Legal strategy and next procedural step.",
+      "photos": [],
+      "documents": [],
+      "audio": [],
+      "videos": []
+    }
+  ],
+  "damages": [
+    {
+      "item": "Purchase price",
+      "amount": 1000000,
+      "currency": "AED",
+      "evidence": "E-003",
+      "notes": ""
+    },
+    {
+      "item": "Mansory repair estimate",
+      "amount": 397800,
+      "currency": "AED",
+      "evidence": "E-010",
+      "notes": ""
+    },
+    {
+      "item": "Transport / logistics",
+      "amount": 128600,
+      "currency": "AED",
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "item": "Wrapping / stickers",
+      "amount": 10500,
+      "currency": "AED",
+      "evidence": "",
+      "notes": ""
+    },
+    {
+      "item": "New tyres + fitting",
+      "amount": 25000,
+      "currency": "AED",
+      "evidence": "",
+      "notes": ""
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Khaldoun / Maestro Motors Dubai",
+      "role": "Seller / representative",
+      "email": "",
+      "phone": "",
+      "notes": "Seller communication and settlement proposals."
+    },
+    {
+      "name": "Mansory Middle East",
+      "role": "Technical inspection / repair estimate",
+      "email": "",
+      "phone": "",
+      "notes": "Issued technical report and repair quotation."
+    },
+    {
+      "name": "Dubai lawyer",
+      "role": "Legal representative",
+      "email": "",
+      "phone": "",
+      "notes": "Demand letter / legal strategy."
+    }
+  ]
+}
