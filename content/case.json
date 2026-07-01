@@ -13,27 +13,34 @@
   "events": [
     {
       "id": "E-001",
-      "date": "Before purchase",
+      "date": "26.4.2026",
       "title": "Online advertisement and first contact",
       "source": "Seller / Internet",
       "status": "completed",
       "description": "Vehicle found online. Seller: Maestro Motors Dubai. Sales representative: Khaldoun.",
       "legal": "Start of transaction and seller representations.",
-      "photos": [],
+      "photos": [
+        "assets/photos/PHOTO-2026-07-01-13-50-08.jpg"
+      ],
       "documents": [],
       "audio": [],
       "videos": []
     },
     {
       "id": "E-002",
-      "date": "Pre-purchase",
+      "date": "2.5.2026",
       "title": "Inspection and diagnostics",
       "source": "Inspection company",
       "status": "completed",
       "description": "Independent pre-purchase inspection arranged. Vehicle visually inspected, electronically diagnosed and test driven. No engine knocking reported.",
       "legal": "Routine inspection did not reveal hidden internal engine defect.",
-      "photos": [],
-      "documents": [],
+      "photos": [
+        "assets/photos/IMG_5219.PNG",
+        "assets/photos/IMG_5220.PNG"
+      ],
+      "documents": [
+        "https://github.com/hlinka-spec/lambo/blob/main/assets/photos/Car%20Inspection%20Report1.pdf"
+      ],
       "audio": [],
       "videos": []
     },
@@ -58,7 +65,9 @@
       "status": "completed",
       "description": "Additional costs including RTA, new tyres, wrapping and transportation.",
       "legal": "Consequential damages and costs invested into the vehicle.",
-      "photos": [],
+      "photos": [
+        "https://github.com/hlinka-spec/lambo/blob/main/assets/photos/PHOTO-2026-07-01-13-50-08.jpg"
+      ],
       "documents": [],
       "audio": [],
       "videos": []
