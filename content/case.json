@@ -78,19 +78,26 @@
         "assets/photos/IMG_7434.PNG",
         "assets/photos/IMG_7435.PNG"
       ],
-      "documents": [],
+      "documents": [
+        "assets/photos/Naskenovaný%20dokument%203.pdf",
+        "assets/photos/Naskenovaný%20dokument%204.pdf",
+        "assets/photos/Naskenovaný%20dokument%205.pdf"
+      ],
       "audio": [],
       "videos": []
     },
     {
       "id": "E-005",
-      "date": "Collection day",
+      "date": "25.5.2026",
       "title": "Approx. 39 km after purchase",
       "source": "Buyer",
       "status": "completed",
       "description": "Vehicle collected and driven approximately 39 km. Knocking noise appeared.",
       "legal": "Very short use after purchase supports the pre-existing defect argument.",
-      "photos": [],
+      "photos": [
+        "assets/photos/IMG_6257.jpg",
+        "assets/photos/IMG_6266.JPG"
+      ],
       "documents": [],
       "audio": [],
       "videos": []
@@ -100,10 +107,12 @@
       "date": "Mansory Middle East",
       "title": "Initial inspection and exhaust repair",
       "source": "Mansory",
-      "status": "completed",
+      "status": "dokončené",
       "description": "Mansory inspected the vehicle and addressed exhaust-related knocking. Further road testing followed.",
       "legal": "Shows immediate professional inspection after symptoms appeared.",
-      "photos": [],
+      "photos": [
+        "assets/photos/PHOTO-2026-07-01-18-38-05.jpg"
+      ],
       "documents": [],
       "audio": [],
       "videos": []
