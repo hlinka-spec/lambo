@@ -64,6 +64,7 @@ function render(){
       <section class="section" id="contacts"><h2>Contacts</h2><div class="grid">${(CASE.contacts||[]).map(c=>`<div class="card"><h3>${esc(c.name)}</h3><p class="muted">${esc(c.role)}</p><p>${esc(c.email)} ${esc(c.phone)}</p><p>${esc(c.notes)}</p></div>`).join('')}</div></section>
     </main>
     <footer>Confidential Case Book · Stored locally in this browser unless you export JSON.</footer>
+    <div class="lightbox" id="lightbox" onclick="closeLightbox()"><button onclick="closeLightbox();event.stopPropagation()">Close ✕</button><img id="lightboxImg" src=""></div>
   </div>
   <div class="admin ${adminMode ? 'on' : ''}" id="admin">${renderAdmin()}</div>`;
 }
@@ -83,7 +84,7 @@ function renderEvent(ev, i){
 function media(ev){
   let out='';
   const imgs=ev.photos||[], docs=ev.documents||[], aud=ev.audio||[], vids=ev.videos||[];
-  if(imgs.length) out += `<div class="media">${imgs.map(x=>`<img src="${attr(x)}">`).join('')}</div>`;
+  if(imgs.length) out += `<div class="media">${imgs.map(x=>`<img src="${attr(x)}" onclick="openLightbox('${attr(x)}')" title="Click to enlarge">`).join('')}</div>`;
   if(docs.length) out += docs.map(x=>`<a class="filelink" href="${attr(x)}" target="_blank">Open document</a>`).join('');
   if(aud.length) out += `<div class="media">${aud.map(x=>`<audio controls src="${attr(x)}"></audio>`).join('')}</div>`;
   if(vids.length) out += `<div class="media">${vids.map(x=>`<video controls src="${attr(x)}"></video>`).join('')}</div>`;
@@ -188,3 +189,18 @@ function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&l
 function attr(s){return esc(s).replace(/"/g,'&quot;')}
 function nl(s){return esc(s).replace(/\n/g,'<br>')}
 init();
+
+function openLightbox(src){
+  const box=document.getElementById('lightbox');
+  const img=document.getElementById('lightboxImg');
+  if(!box||!img) return;
+  img.src=src;
+  box.classList.add('on');
+}
+function closeLightbox(){
+  const box=document.getElementById('lightbox');
+  const img=document.getElementById('lightboxImg');
+  if(!box||!img) return;
+  box.classList.remove('on');
+  img.src='';
+}

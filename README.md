@@ -35,3 +35,10 @@ Open the website and click **Export / Print PDF**.
 
 ## Fix note
 This version fixes Admin mode so Edit buttons no longer return you to the dashboard.
+
+
+## CaseBook Pro update
+- Photos are now shown as controlled thumbnails, not huge full-size images.
+- Click any photo to open it fullscreen.
+- PDFs/documents display as document buttons.
+- Videos and audio are kept in compact players.
